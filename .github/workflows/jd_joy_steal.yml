@@ -5,8 +5,8 @@ name: 宠汪汪偷好友
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '10 1-22/3 * * *'
+  #schedule:
+    #- cron: '10 1-22/3 * * *'
   watch:
     types: started
   repository_dispatch:
