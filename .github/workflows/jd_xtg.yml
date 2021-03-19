@@ -28,6 +28,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
+          repository: tracefish/ds
       - name: Init Env
         run: |
           cp -f update_env.sh ~/update_env.sh && chmod 755 ~/update_env.sh && ~/update_env.sh
